@@ -1,0 +1,27 @@
+body{
+  margin: 0 auto;
+  width: 40%;
+
+}
+
+.container{
+  width: 100%;
+  background-color: red;
+}
+
+.result{
+  display: none;
+}
+
+.feedback{
+  display: none;
+}
+
+.feedback_visible{
+  display: block;
+}
+
+
+button{
+  margin-left: 40%;
+}

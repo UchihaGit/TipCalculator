@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="">
+      <div class="feedback">Set all the values</div>
+      <h1>Tip Calculator</h1>
+      <div class="container">
+        <div >
+          <h3>How Much Was Your Bill ?</h3>
+          <input type="number" id="input1" value="0" step="0.1">
+        </div>
+
+        <div >
+          <h3>How Many People Sharing The Bill ?</h3>
+          <input type="number" id="input2" value="0" step="0.1" >
+        </div>
+
+        <div class="option_container">
+          <h3>How Was Your Service</h3>
+          <select name="" id="option" id="">
+            <option value="choose">Choose</option>
+            <option value="20">20%</option>
+            <option value="10">10%</option>
+            <option value="2">2%</option>
+          </select>
+        </div>
+        <button type="submit" class="btn" name="button"> calculate</button>
+      </div>
+      <div class="result">
+        <h3>Tip Amount <span id="span1"></span></h3>
+        <h3>Total Amount <span id="span2"></span></h3>
+        <h3>each person ownes <span id="span3"></span></h3>
+      </div>
+    </div>
+    <script src = "script.js">
+
+    </script>
+  </body>
+</html>
